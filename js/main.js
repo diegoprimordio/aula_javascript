@@ -1,5 +1,55 @@
 
+function clicou() {
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    // console.log(document.getElementById("agradecimento"));
+    // alert("Obrigado por clicar")
+}
 
+function redirecionar() {
+    // abre em outra aba
+    window.open("https://www.google.com/");
+    // abre na mesma aba
+    window.location.href = "https://www.google.com/";
+}
+
+function trocar(elemento) {
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    // document.getElementById(elemento).innerHTML = "Obrigado por passar o mouse";
+    // alert("Trocar teste");
+}
+
+function voltar(elemento) {
+    elemento.innerHTML = "Passe o mouse aqui";
+    // document.getElementById(elemento).innerHTML = "Passe o mouse aqui";
+}
+
+function load() {
+    alert("Seja bem vindo");
+}
+
+function change(elemento) {
+    console.log(elemento.value);
+}
+
+// function soma(n1, n2) {    
+//     return n1 + n2;
+// }
+
+// function validaIdade(idade) {
+//     var validar;
+//     if (idade >= 18) {
+//         validar = true;
+//     } else {
+//         validar = false;
+//     }
+
+//     return validar;
+// }
+
+// var idade = prompt("Qual sua idade? ");
+// console.log(validaIdade(idade));
+
+// alert(soma(5, 7));
 
 // var d = new Date();
 // alert(d)
